@@ -1,0 +1,23 @@
+{
+  "name": "gamesarcade",
+  "version": "1.0.0",
+  "description": "Pagina sobre noticias y opiniones de videojuegos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index",
+    "start": "node index"
+  },
+  "author": "Gonzales, Giusti, Leonel",
+  "license": "ISC",
+  "dependencies": {
+    "better-logging": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+},
+"devDependencies": {
+    "nodemon": "^2.0.22"
+}
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica NodeJS</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+
+  <body>
+
+    <nav>
+      <div class="logo">
+        <img src="/assets/img/Logo pagina proyectoggl.png" class="logoimg">
+      </div>
+      <div class="toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Acerca de</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle">Productos</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Producto 1</a></li>
+            <li><a href="#">Producto 2</a></li>
+            <li><a href="#">Producto 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contacto</a></li>
+        <li class="search">
+          <form class="search-form">
+            <input type="text" placeholder="Buscar" />
+            <button type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </li>
+      </ul>
+    </nav>
+    <%- include(`${content}`)%>
+    <script src="/assets/Java.js"></script>
+  </body>
+  <footer> si</footer>
+</html>
