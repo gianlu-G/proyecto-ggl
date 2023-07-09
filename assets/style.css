@@ -70,7 +70,7 @@ nav a:hover {
 
 .search-form {
   display: flex;
-  margin-top: 10px;
+  margin-top: 2%;
 }
 .dropdown-menu li {
   margin-bottom: 0.5rem;
@@ -100,9 +100,10 @@ nav a:hover {
   border-radius: 5px;
 }
 .contenido1{
-width: 80%;
+width: 70%;
 margin: 0 auto;
-height: 45px;
+display: flex;
+height: 200px;
 }
 .Noti, .juegi { 
    /* Hacemos que los divs floten a la izquierda */
@@ -136,23 +137,53 @@ height: 45px;
   font-weight: 600;
 }
 .Noti1 {
-  width: 70%;
+  width: 63%;
   height: 500px;
   border-radius: 10px;
   background: #11E0C7;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: 1%;
 }
 .NotCont {
   border-radius: 10px;
-  border: 5px solid #000;
+  border: 2px solid #000;
   background: #E4E4E7;
   width: 95%;
   height: 20%;
   margin: 0 auto;
+  margin-bottom: 1%;
+}
+.NotCont1 {
+  border-radius: 10px;
+  border: 2px solid #000;
+  background: #E4E4E7;
+  width: 95%;
+  height: 29%;
+  margin: 0 auto;
+  margin-bottom: 7px;
+}
+.Juegui1{
+  width: 34%;
+  height: 500px;
+  border-radius: 10px;
+  background: #6340EF;
+  padding: 1% 5px 1% 5px;
+  margin: 1%;
 }
 .FlechaAbajo {
   display: flex;
   margin: 0 auto;
   width: 50px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.FlechaAbajo1{
+  display: flex;
+  margin: 0 auto;
+  width: 50px;
+  margin-top: 2%;
+  margin-bottom: 0%;
 }
 .slides {
   display: none;
