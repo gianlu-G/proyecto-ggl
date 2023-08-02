@@ -185,6 +185,25 @@ height: 200px;
   margin-top: 2%;
   margin-bottom: 0%;
 }
+    /* Estilo para el botón imagen */
+    #toggleButton {
+      margin: 0 auto;
+      cursor: pointer;
+      border: none;
+      background: none;
+      padding: 0;
+      width: 50px; /* Ajustamos el ancho del botón */
+      height: 50px; /* Ajustamos la altura del botón */
+      display: flex; /* Utilizamos flexbox */
+      justify-content: center; /* Centramos horizontalmente */
+      align-items: center; /* Centramos verticalmente */
+    }
+
+    /* Estilo para la imagen dentro del botón */
+    #toggleButton img {
+      max-width: 100%;
+      max-height: 100%;
+    }
 .slides {
   display: none;
 }
