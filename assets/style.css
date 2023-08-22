@@ -163,6 +163,9 @@ height: 200px;
   margin: 0 auto;
   margin-bottom: 7px;
 }
+.hidden {
+  display: none;
+}
 .Juegui1{
   width: 34%;
   height: 500px;
@@ -171,7 +174,7 @@ height: 200px;
   padding: 1% 5px 1% 5px;
   margin: 1%;
 }
-.FlechaAbajo {
+/*.FlechaAbajo {
   display: flex;
   margin: 0 auto;
   width: 50px;
@@ -184,7 +187,7 @@ height: 200px;
   width: 50px;
   margin-top: 2%;
   margin-bottom: 0%;
-}
+}*/
     /* Estilo para el botón imagen */
     #toggleButton {
       margin: 0 auto;
@@ -192,11 +195,11 @@ height: 200px;
       border: none;
       background: none;
       padding: 0;
-      width: 50px; /* Ajustamos el ancho del botón */
-      height: 50px; /* Ajustamos la altura del botón */
-      display: flex; /* Utilizamos flexbox */
-      justify-content: center; /* Centramos horizontalmente */
-      align-items: center; /* Centramos verticalmente */
+      display: flex;
+      margin: 0 auto;
+      width: 50px;
+      margin-top: 1%;
+      margin-bottom: 1%;
     }
 
     /* Estilo para la imagen dentro del botón */
