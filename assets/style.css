@@ -2,7 +2,7 @@ body {
   margin: 0%;
   /*background: #2B2A4C;*/
   /*background: #7971EA;*/
-  background: #F9F5EB;
+  background: #f9f5eb;
 }
 
 nav {
@@ -10,7 +10,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   /*background-color: #00032b;*/
-  background-color: #7971EA;
+  background-color: #7971ea;
   color: #fff;
   /*padding: 1rem;*/
   padding-left: 100;
@@ -37,7 +37,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #6057B3;
+  background-color: #6057b3;
   color: #e4e3e3;
   border-radius: 20vh;
 }
@@ -136,7 +136,7 @@ nav a:hover {
   /* Centramos verticalmente el contenido */
   height: auto;
   /* Establecemos una altura para el contenedor */
-  color: #FFF;
+  color: #fff;
   font-size: 20px;
   font-family: Montserrat;
   font-weight: 600;
@@ -152,7 +152,7 @@ nav a:hover {
   /* Centramos verticalmente el contenido */
   height: auto;
   /* Establecemos una altura para el contenedor */
-  color: #FFF;
+  color: #fff;
   font-size: 20px;
   font-family: Montserrat;
   font-weight: 600;
@@ -163,7 +163,7 @@ nav a:hover {
   height: 100%;
   border-radius: 10px;
   /*background: #11E0C7;*/
-  background: #7971EA;
+  background: #7971ea;
   padding-top: 1%;
   padding-bottom: 5%;
   margin: 1%;
@@ -172,7 +172,7 @@ nav a:hover {
 .NotCont {
   border-radius: 10px;
   border: 2px solid #222831;
-  background: #E4E4E7;
+  background: #e4e4e7;
   width: 95%;
   height: 29%;
   margin: 0 auto;
@@ -182,7 +182,7 @@ nav a:hover {
 .NotCont1 {
   border-radius: 10px;
   border: 2px solid #222831;
-  background: #E4E4E7;
+  background: #e4e4e7;
   width: 95%;
   height: 29%;
   margin: 0 auto;
@@ -198,8 +198,18 @@ nav a:hover {
   width: 34%;
   height: 50vh;
   border-radius: 10px;
-  background: #7971EA;
+  background: #7971ea;
   padding: 1% 5px 3% 5px;
+  margin: 1%;
+}
+.Noti2 {
+  width: 63%;
+  height: 100%;
+  border-radius: 10px;
+  /*background: #11E0C7;*/
+  background: #7971ea;
+  padding-top: 1%;
+  padding-bottom: 5%;
   margin: 1%;
 }
 
@@ -226,15 +236,14 @@ nav a:hover {
   background: none;
   padding: 0;
   display: flex;
-  
 }
 
-#toggleButton{
+#toggleButton {
   width: 7%;
   margin-top: 1.5%;
 }
 
-#toggleButton2{
+#toggleButton2 {
   margin-top: 2.5%;
   width: 15%;
 }
@@ -243,7 +252,6 @@ nav a:hover {
 #toggleButton img,
 #toggleButton2 img {
   width: 100%;
-  
 }
 
 .slides {
@@ -396,7 +404,6 @@ img {
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-
   .prev,
   .next,
   .text {
@@ -408,9 +415,7 @@ img {
     width: 10px;
   }
 
-
-  @media only screen and (max-width: 500px){
-
+  @media only screen and (max-width: 500px) {
     .prev,
     .next,
     .text {
