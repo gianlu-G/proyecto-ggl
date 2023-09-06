@@ -169,7 +169,7 @@ nav a:hover {
   margin: 1%;
 }
 
-.NotCont {
+.NotCont, .read-more-text--show {
   border-radius: 10px;
   border: 2px solid #222831;
   background: #e4e4e7;
@@ -294,7 +294,7 @@ img {
 }
 
 .read-more-text--show{
-  display: inline;
+  display: block;
 }
 
 .read-more-container{
