@@ -1,3 +1,22 @@
+const parentContainer = document.querySelector(".read-more-container");
+
+parentContainer.addEventListener("click", (event) => {
+  const current = event.target;
+
+  const isReadMoreBtn = current.className.includes("read-more-btn");
+
+  if (!isReadMoreBtn) return;
+
+  const currentText =
+    event.target.parentNode.querySelectorAll("div.read-more-text");
+
+  currentText.forEach((x) => x.classList.toggle("read-more-text--show"));
+
+  current.textContent = current.textContent.includes("Read More")
+    ? "Read Less..."
+    : "Read More...";
+});
+
 /*let areElementsVisible = false;
 let areElementsVisible2 = false;
 let shownElements = []; // Arreglo para guardar los elementos adicionales mostrados
@@ -72,21 +91,3 @@ document.addEventListener("DOMContentLoaded", function () {
     container.style.maxHeight = newContainerHeight + 'px';
   }
 });*/
-
-const parentContainer = document.querySelector('.read-more-container');
-
-parentContainer.addEventListener('click', event => {
-
-  const current = event.target;
-
-  const isReadMoreBtn = current.className.includes('read-more-btn');
-
-  if (!isReadMoreBtn) return;
-
-  const currentText = event.target.parentNode.querySelector('.read-more-text');
-
-  currentText.classList.toggle('read-more-text--show');
-
-  current.textContent = current.textContent.includes('Read More') ? "Read Less..." : "Read More...";
-
-})
