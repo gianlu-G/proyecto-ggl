@@ -1,4 +1,4 @@
-const parentContainer = document.querySelector(".read-more-container");
+/*const parentContainer = document.querySelector(".read-more-container");
 
 parentContainer.addEventListener("click", (event) => {
   const current = event.target;
@@ -15,7 +15,7 @@ parentContainer.addEventListener("click", (event) => {
   current.textContent = current.textContent.includes("Read More")
     ? "Read Less..."
     : "Read More...";
-});
+});*/
 
 /*let areElementsVisible = false;
 let areElementsVisible2 = false;
