@@ -108,13 +108,6 @@ nav a:hover {
   border-radius: 5px;
 }
 
-/*.contenido1 {
-  width: 70%;
-  margin: 0 auto;
-  display: flex;
-  height: 10rem;
-}*/
-
 .Noti,
 .juegi {
   /* Hacemos que los divs floten a la izquierda */
@@ -180,6 +173,18 @@ nav a:hover {
 .hidden,
 .oculto {
   display: none;
+}
+
+.item-post {
+  display: grid;
+  grid-template-columns: 1fr 114px;
+  grid-gap: 8px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.item-post__img {
 }
 
 .Juegui1 {
@@ -259,7 +264,7 @@ img {
   right: 0;
   bottom: 0;
   margin: auto;
-  height: 100%;
+  max-height: 100%;
   position: absolute;
   opacity: 0;
   transition: opacity 1s ease-in-out;
@@ -277,7 +282,7 @@ img {
   display: flex;
   color: #111;
   gap: 1rem;
-  width: 98%;
+  width: 80%;
   padding-top: 5vh;
   margin: 0 auto;
   height: 100%;
